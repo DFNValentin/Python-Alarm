@@ -105,7 +105,7 @@ rad2.place(x = 220, y=95)
 #logic script
 
 def sound_alarm():
-    mixer.music.load('grateful.mp3')
+    mixer.music.load('sound.mp3')
     mixer.music.play()
     selected.set(0)
 
